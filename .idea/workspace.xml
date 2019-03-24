@@ -54,13 +54,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1166" />
+          <entry key="java" value="1414" />
           <entry key="xml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1166" />
+          <entry key="JAVA" value="1414" />
           <entry key="XML" value="25" />
         </counts>
       </usages-collector>
@@ -87,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Challenge01Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+            <state relative-caret-position="1134">
+              <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Challenge01/Challenge01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="420">
+              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -238,7 +238,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553435902205" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553436996802" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
@@ -281,33 +281,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Challenge01Tests.oneYearInSecondsReturnsOneYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Challenge01Tests.threeYearsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenge01" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Challenge01Tests" />
-      <option name="METHOD_NAME" value="oneYearInSecondsReturnsOneYearTest" />
+      <option name="METHOD_NAME" value="threeYearsTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Challenge01Tests.oneYearOneDayAndOneSecondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Challenge01Tests.twoYears364Days23Hours59MinutesAnd59SecondsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenge01" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Challenge01Tests" />
-      <option name="METHOD_NAME" value="oneYearOneDayAndOneSecondTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Challenge01Tests.twoReturnsTwoSecondsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="challenge01" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Challenge01Tests" />
-      <option name="METHOD_NAME" value="twoReturnsTwoSecondsTest" />
+      <option name="METHOD_NAME" value="twoYears364Days23Hours59MinutesAnd59SecondsTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -319,6 +308,17 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Challenge01Tests" />
       <option name="METHOD_NAME" value="twoYearsTwoDaysAndTwoSecondsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge01Tests.twoYearsTwoDaysOneHourAndTwoSecondsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Challenge01Tests" />
+      <option name="METHOD_NAME" value="twoYearsTwoDaysOneHourAndTwoSecondsTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -396,19 +396,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Challenge01Tests.twoReturnsTwoSecondsTest" />
-      <item itemvalue="JUnit.Challenge01Tests.oneYearInSecondsReturnsOneYearTest" />
-      <item itemvalue="JUnit.Challenge01Tests.oneYearOneDayAndOneSecondTest" />
       <item itemvalue="JUnit.Challenge01Tests.twoYearsTwoDaysAndTwoSecondsTest" />
       <item itemvalue="JUnit.Challenge01Tests" />
+      <item itemvalue="JUnit.Challenge01Tests.twoYearsTwoDaysOneHourAndTwoSecondsTest" />
+      <item itemvalue="JUnit.Challenge01Tests.twoYears364Days23Hours59MinutesAnd59SecondsTest" />
+      <item itemvalue="JUnit.Challenge01Tests.threeYearsTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Challenge01Tests" />
+        <item itemvalue="JUnit.Challenge01Tests.threeYearsTest" />
+        <item itemvalue="JUnit.Challenge01Tests.twoYears364Days23Hours59MinutesAnd59SecondsTest" />
+        <item itemvalue="JUnit.Challenge01Tests.twoYearsTwoDaysOneHourAndTwoSecondsTest" />
         <item itemvalue="JUnit.Challenge01Tests.twoYearsTwoDaysAndTwoSecondsTest" />
-        <item itemvalue="JUnit.Challenge01Tests.oneYearOneDayAndOneSecondTest" />
-        <item itemvalue="JUnit.Challenge01Tests.oneYearInSecondsReturnsOneYearTest" />
-        <item itemvalue="JUnit.Challenge01Tests.twoReturnsTwoSecondsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -426,35 +426,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Challenge01Tests_oneReturnsOneSecondTest - 2019.03.24 at 09h 46m 00s.xml">
-      <configuration name="Challenge01Tests.oneReturnsOneSecondTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests - 2019.03.24 at 09h 46m 11s.xml">
-      <configuration name="Challenge01Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests_oneYearInSecondsReturnsOneYearTest - 2019.03.24 at 10h 00m 40s.xml">
-      <configuration name="Challenge01Tests.oneYearInSecondsReturnsOneYearTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests_oneYearInSecondsReturnsOneYearTest - 2019.03.24 at 10h 01m 18s.xml">
-      <configuration name="Challenge01Tests.oneYearInSecondsReturnsOneYearTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests - 2019.03.24 at 10h 01m 29s.xml">
-      <configuration name="Challenge01Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests - 2019.03.24 at 13h 40m 17s.xml">
-      <configuration name="Challenge01Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests_oneReturnsOneSecondTest - 2019.03.24 at 13h 51m 52s.xml">
-      <configuration name="Challenge01Tests.oneReturnsOneSecondTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests_twoReturnsTwoSecondsTest - 2019.03.24 at 13h 52m 01s.xml">
-      <configuration name="Challenge01Tests.twoReturnsTwoSecondsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests_oneYearInSecondsReturnsOneYearTest - 2019.03.24 at 13h 52m 06s.xml">
-      <configuration name="Challenge01Tests.oneYearInSecondsReturnsOneYearTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Challenge01Tests_oneYearOneDayAndOneSecondTest - 2019.03.24 at 13h 55m 04s.xml">
       <configuration name="Challenge01Tests.oneYearOneDayAndOneSecondTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests_twoYearsTwoDaysAndTwoSecondsTest - 2019.03.24 at 13h 57m 43s.xml">
+      <configuration name="Challenge01Tests.twoYearsTwoDaysAndTwoSecondsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests - 2019.03.24 at 13h 57m 58s.xml">
+      <configuration name="Challenge01Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests_twoYearsTwoDaysOneHourAndTwoSecondsTest - 2019.03.24 at 14h 03m 49s.xml">
+      <configuration name="Challenge01Tests.twoYearsTwoDaysOneHourAndTwoSecondsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests_twoYearsTwoDaysOneHourAndTwoSecondsTest - 2019.03.24 at 14h 06m 14s.xml">
+      <configuration name="Challenge01Tests.twoYearsTwoDaysOneHourAndTwoSecondsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests_twoYears364Days23Hours59MinutesAnd59SecondsTest - 2019.03.24 at 14h 10m 40s.xml">
+      <configuration name="Challenge01Tests.twoYears364Days23Hours59MinutesAnd59SecondsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests_twoYears364Days23Hours59MinutesAnd59SecondsTest - 2019.03.24 at 14h 12m 03s.xml">
+      <configuration name="Challenge01Tests.twoYears364Days23Hours59MinutesAnd59SecondsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests_twoYears364Days23Hours59MinutesAnd59SecondsTest - 2019.03.24 at 14h 12m 52s.xml">
+      <configuration name="Challenge01Tests.twoYears364Days23Hours59MinutesAnd59SecondsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests_threeYearsTest - 2019.03.24 at 14h 15m 34s.xml">
+      <configuration name="Challenge01Tests.threeYearsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests - 2019.03.24 at 14h 16m 39s.xml">
+      <configuration name="Challenge01Tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -500,20 +500,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Challenge01/Challenge01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Challenge01Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+        <state relative-caret-position="1134">
+          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Challenge01/Challenge01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
         </state>
       </provider>
     </entry>

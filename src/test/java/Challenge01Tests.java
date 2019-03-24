@@ -43,4 +43,25 @@ public class Challenge01Tests {
         assertThat(result, equalTo("2 years, 2 days and 2 seconds"));
     }
 
+    @Test
+    void twoYearsTwoDaysOneHourAndTwoSecondsTest() {
+        Challenge01 challenge01 = new Challenge01();
+        String result = challenge01.formatTime((31536000 * 2) + (86400 * 2) + 3600 + 2);
+        assertThat(result, equalTo("2 years, 2 days, 1 hour and 2 seconds"));
+    }
+
+    @Test
+    void twoYears364Days23Hours59MinutesAnd59SecondsTest() {
+        Challenge01 challenge01 = new Challenge01();
+        String result = challenge01.formatTime(( 31536000 * 2 ) + ( 86400 * 364 ) + ( 3600 * 23 ) + ( 60 * 59 ) + 59);
+        assertThat(result, equalTo("2 years, 364 days, 23 hours, 59 minutes and 59 seconds"));
+    }
+
+    @Test
+    void threeYearsTest() {
+        Challenge01 challenge01 = new Challenge01();
+        String result = challenge01.formatTime(( 31536000 * 2 ) + ( 86400 * 364 ) + ( 3600 * 23 ) + ( 60 * 59 ) + 60);
+        assertThat(result, equalTo("3 years"));
+    }
+
 }
