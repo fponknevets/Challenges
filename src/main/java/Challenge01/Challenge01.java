@@ -10,7 +10,10 @@ public class Challenge01 {
 
     public String formatTime(int i) {
 
-        return "1 second";
+        String result = Integer.toString(i) + " second";
+        result += i > 1 ? "s" : "";
+        
+        return result;
 
     }
 }
