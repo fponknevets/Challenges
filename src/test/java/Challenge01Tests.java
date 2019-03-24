@@ -9,11 +9,10 @@ import static org.hamcrest.Matchers.*;
 public class Challenge01Tests {
 
     @Test
-    void oneReturnsOneSecond(){
+    void oneReturnsOneSecondTest(){
+
         Challenge01 challenge01 = new Challenge01();
-
         String result = challenge01.formatTime(1);
-
         assertThat(result, equalTo("1 second"));
     }
 
