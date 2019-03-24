@@ -8,13 +8,19 @@ public class Challenge01 {
     public final static int DAY = 24 * HOUR;
     public final static int YEAR = 365 * DAY;
 
-    public String formatTime(int seconds) {
+    public static void main ( String [] arguments )
+    {
+        int seconds = Integer.parseInt( arguments[0] );
+        System.out.println( formatTime( seconds ) );
+    }
+
+    public static String formatTime(int seconds) {
 
         String result = "";
 
         if (seconds >= YEAR) {
             int yearcount = seconds / YEAR;
-            result += Integer.toString(yearcount) + " year";
+            result += Integer.toString( yearcount ) + " year";
             result += yearcount > 1 ? "s" : "";
             seconds -= yearcount * YEAR;
         }
@@ -24,7 +30,7 @@ public class Challenge01 {
             if (result.length() > 0) {
                 result += ", ";
             }
-            result += Integer.toString(daycount) + " day";
+            result += Integer.toString( daycount ) + " day";
             result += daycount > 1 ? "s" : "";
             seconds -= daycount * DAY;
         }
@@ -34,7 +40,7 @@ public class Challenge01 {
             if (result.length() > 0) {
                 result += ", ";
             }
-            result += Integer.toString(hourcount) + " hour";
+            result += Integer.toString( hourcount ) + " hour";
             result += hourcount > 1 ? "s" : "";
             seconds -= hourcount * HOUR;
         }
@@ -44,7 +50,7 @@ public class Challenge01 {
             if (result.length() > 0) {
                 result += ", ";
             }
-            result += Integer.toString(minutecount) + " minute";
+            result += Integer.toString( minutecount ) + " minute";
             result += minutecount > 1 ? "s" : "";
             seconds -= minutecount * MINUTE;
         }
@@ -53,14 +59,14 @@ public class Challenge01 {
             if (result.length() > 0) {
                 result += " and ";
             }
-            result += Integer.toString(seconds) + " second";
+            result += Integer.toString( seconds ) + " second";
             result += seconds > 1 ? "s" : "";
         }
 
-        if (result.contains(",") && !result.contains("and")) {
+        if ( result.contains( "," ) && ! result.contains( "and" ) ) {
             int lastcomma = result.lastIndexOf(",");
-            String beforeAnd = result.substring(0, lastcomma );
-            String afterAnd = result.substring(lastcomma + 1);
+            String beforeAnd = result.substring( 0 , lastcomma );
+            String afterAnd = result.substring( lastcomma + 1 );
             result = beforeAnd + " and" + afterAnd;
         }
 

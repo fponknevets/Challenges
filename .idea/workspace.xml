@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="acb85559-08eb-4999-974f-a291196045f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Challenge01/Challenge01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge01/Challenge01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Challenge01Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Challenge01Tests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,13 +53,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1697" />
+          <entry key="java" value="1863" />
           <entry key="xml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1697" />
+          <entry key="JAVA" value="1863" />
           <entry key="XML" value="25" />
         </counts>
       </usages-collector>
@@ -90,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Challenge01Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
+            <state relative-caret-position="234">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Challenge01/Challenge01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="997">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="200">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -144,7 +143,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <autoscrollFromSource Scope="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
@@ -203,29 +202,44 @@
         <subPane>
           <expand>
             <path>
-              <item name="challenge01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="challenge01" type="462c0819:PsiDirectoryNode" />
+              <item name="Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Challenges" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="challenge01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="challenge01" type="462c0819:PsiDirectoryNode" />
+              <item name="Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Challenges" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="challenge01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="challenge01" type="462c0819:PsiDirectoryNode" />
+              <item name="Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Challenges" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="challenge01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="challenge01" type="462c0819:PsiDirectoryNode" />
+              <item name="Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Challenge01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Challenges" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="challenge01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="challenge01" type="462c0819:PsiDirectoryNode" />
+              <item name="Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Challenges" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -238,7 +252,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553439001585" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553462766177" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
@@ -259,9 +273,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Challenge01Tests">
+  <component name="RunManager" selected="Application.Challenge01">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Challenge01" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Challenge01.Challenge01" />
+      <module name="challenge01" />
+      <option name="PROGRAM_PARAMETERS" value="999" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -396,6 +418,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Challenge01" />
       <item itemvalue="JUnit.Challenge01Tests" />
       <item itemvalue="JUnit.Challenge01Tests.twoYearsTwoDaysOneHourAndTwoSecondsTest" />
       <item itemvalue="JUnit.Challenge01Tests.twoYears364Days23Hours59MinutesAnd59SecondsTest" />
@@ -426,21 +449,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Challenge01Tests_twoYearsTwoDaysAndTwoSecondsTest - 2019.03.24 at 13h 57m 43s.xml">
-      <configuration name="Challenge01Tests.twoYearsTwoDaysAndTwoSecondsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests - 2019.03.24 at 13h 57m 58s.xml">
-      <configuration name="Challenge01Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests_twoYearsTwoDaysOneHourAndTwoSecondsTest - 2019.03.24 at 14h 03m 49s.xml">
-      <configuration name="Challenge01Tests.twoYearsTwoDaysOneHourAndTwoSecondsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests_twoYearsTwoDaysOneHourAndTwoSecondsTest - 2019.03.24 at 14h 06m 14s.xml">
-      <configuration name="Challenge01Tests.twoYearsTwoDaysOneHourAndTwoSecondsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Challenge01Tests_twoYears364Days23Hours59MinutesAnd59SecondsTest - 2019.03.24 at 14h 10m 40s.xml">
-      <configuration name="Challenge01Tests.twoYears364Days23Hours59MinutesAnd59SecondsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Challenge01Tests_twoYears364Days23Hours59MinutesAnd59SecondsTest - 2019.03.24 at 14h 12m 03s.xml">
       <configuration name="Challenge01Tests.twoYears364Days23Hours59MinutesAnd59SecondsTest" configurationId="JUnit" />
     </history-entry>
@@ -455,6 +463,21 @@
     </history-entry>
     <history-entry file="Challenge01Tests_twoYearsAndOneDayTest - 2019.03.24 at 14h 46m 38s.xml">
       <configuration name="Challenge01Tests.twoYearsAndOneDayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests_twoYearsAndOneDayTest - 2019.03.24 at 14h 48m 45s.xml">
+      <configuration name="Challenge01Tests.twoYearsAndOneDayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests_twoYearsAndOneDayTest - 2019.03.24 at 14h 49m 18s.xml">
+      <configuration name="Challenge01Tests.twoYearsAndOneDayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests_twoYearsAndOneDayTest - 2019.03.24 at 14h 49m 37s.xml">
+      <configuration name="Challenge01Tests.twoYearsAndOneDayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests - 2019.03.24 at 14h 50m 04s.xml">
+      <configuration name="Challenge01Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Challenge01Tests - 2019.03.24 at 15h 05m 48s.xml">
+      <configuration name="Challenge01Tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -472,11 +495,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -492,18 +515,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Challenge01/Challenge01.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -514,15 +525,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Challenge01/Challenge01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="200">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Challenge01Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
+        <state relative-caret-position="234">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
