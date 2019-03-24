@@ -64,4 +64,11 @@ public class Challenge01Tests {
         assertThat(result, equalTo("3 years"));
     }
 
+    @Test
+    void twoYearsAndOneDayTest() {
+        Challenge01 challenge01 = new Challenge01();
+        String result = challenge01.formatTime(( 31536000 * 2 ) + ( 86400 * 1 ));
+        assertThat(result, equalTo("2 years and 1 day"));
+    }
+
 }
