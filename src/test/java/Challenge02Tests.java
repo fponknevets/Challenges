@@ -14,4 +14,13 @@ public class Challenge02Tests {
         String result = challenge02.fixPriceLabel( "Was £2, now £1" );
         assertThat( result , equalTo( "Was £2, now £1" ) );
     }
+
+    @Test
+    void was2(){
+        Challenge02 challenge02 = new Challenge02();
+        String result = challenge02.fixPriceLabel( "Was £2" );
+        assertThat( result , equalTo( "Was £2" ) );
+    }
+
+
 }
